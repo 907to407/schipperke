@@ -4,5 +4,4 @@ Rails.application.routes.draw do
   get 'contact', to: 'static_pages#contact'
   get 'remembrance', to: 'static_pages#remembrance'
   get 'services', to: 'static_pages#services'
-  get 'index', to: 'static_pages#index'
 end
