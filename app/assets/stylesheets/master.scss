@@ -74,3 +74,15 @@ h1, h2, h3, h4, h5, h6, .navbar {
   color:#FF33E6;
   
 }
+
+.nav-item {
+  margin-right: 16px;
+
+  > a {
+    color: #eaeaea;
+  }
+  
+  &:last-child {
+    margin-right: 0;
+  }
+}
