@@ -38,6 +38,7 @@
 </nav>
 <%= yield %>
 </div>
+
 <div id="footer">
 <div class="container">
 <div class="row">
@@ -59,6 +60,11 @@
         <%= link_to 'https://www.instagram.com/magen_' do %>
           <span class="fa fa-instagram fa-2x"></span>
         <% end %>
+        <script class="weather"
+          open_weather_api = OpenWeatherAPI::API.new api_key: "c305c02baa62ceae1f7a9c7937b7981a", default_language: 'es', default_units: 'metric', default_country_code: 'es'
+          json = open_weather_api.current lon: -81.451540, lat: 28.153610
+        </script>
+          
       </div>
     </div>
 </div>
