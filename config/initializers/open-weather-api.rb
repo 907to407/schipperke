@@ -6,5 +6,4 @@ OpenWeatherAPI.configure do |config|
   config.default_language = 'es'     # 'en' by default
   config.default_country_code = 'es' # nil by default (ISO 3166-1 alfa2)
   config.default_units = 'metric'    # 'metric' by default
-  Rails.configuration.open_weather_api
 end
